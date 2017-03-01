@@ -1,12 +1,12 @@
-# A Survey and Experimental Comparison of DistributedSPARQL Engines for Very Large RDF Data
+## A Survey and Experimental Comparison of Distributed SPARQL Engines for Very Large RDF Data
 
 
-##Overview:
+###Overview:
 
 
 ##Dataset:
-|*Dataset* | *Download* | *Triples (M)* | *#S (M)*| *#O (M)* | *#S∩O (M)* | *#P* | *Indegree (Avg/StDev)* | *Outdegree (Avg/StDev)*|
-|----------|---|------------|----------------------|------------------------|---------------------|------------|----------|-------------------------------|
+|*Dataset* | *Download* | *Triples (M)* | *#S (M)* | *#O (M)* | *#S∩O (M)* | *#P* | *Indegree (Avg/StDev)* | *Outdegree (Avg/StDev)*|
+|----------|------------|---------------|----------|----------|------------|------|------------------------|------------------------|
  WatDiv  | [Download] (http://cloud.kaust.edu.sa/#) | 109.23  | 5.21 | 17.93 | 4.72 | 86 | 22.49/960.44 | 42.20/89.25  | 
  YAGO2 | [Download] (http://cloud.kaust.edu.sa/#) | 284.30 | 10.12 | 52.34 | 1.77 | 98 | 5.43/2962.93 | 28.09/35.89 |
  WatDiv-1B | [Download] (http://cloud.kaust.edu.sa/#) | 1,092.16 | 52.12 | 179.09 | 46.95 | 86 | 23.69/2783.40 | 41.91/89.05 |
@@ -17,7 +17,19 @@
 ### Benchmark Queries 
 
 
-##Tested Systems:
+###Tested Systems:
 
+|*System* | *Download* |
+|----------|------------------|
+AdPart | https://github.com/razen-alharbi/AdPart |
+TriAD | Contact Author: mailto:gurajada@mpi-inf.mpg.de |
+SHAPE | https://sites.google.com/site/gtshape/ |
+DREAM | https://github.com/CMU-Q/DREAM |
+H2RDF+ | https://github.com/zcourts/h2rdf/tree/master/H2RDF%2Bv0.2 |
+S2RDF | http://dbis.informatik.uni-freiburg.de/forschung/projekte/DiPoS/S2RDF.html | 
+S2X | http://dbis.informatik.uni-freiburg.de/forschung/projekte/DiPoS/S2X.html | 
+CliqueSquare | https://team.inria.fr/oak/projects/cliquesquare/ |
+SHARD | https://svn.code.sf.net/p/shard-3store/code/ | 
+H-RDF-3X | Contact Author: jiewen.huang@yale.edu |
 
 
