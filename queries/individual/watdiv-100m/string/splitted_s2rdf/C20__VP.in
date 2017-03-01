@@ -1,0 +1,11 @@
+PREFIX http: <http://xmlns.com/foaf/>
+SELECT ?v0 
+WHERE {
+	?v0 http:__db_uwaterloo_ca__galuc_wsdbm_likes ?v1 . 
+	?v0 http:__db_uwaterloo_ca__galuc_wsdbm_friendOf ?v2 . 
+	?v0 http:__purl_org_dc_terms_Location ?v3 . 
+	?v0 http:__xmlns_com_foaf_age ?v4 . 
+	?v0 http:__db_uwaterloo_ca__galuc_wsdbm_gender ?v5 . 
+	?v0 http:__xmlns_com_foaf_givenName ?v6 . 
+}
+

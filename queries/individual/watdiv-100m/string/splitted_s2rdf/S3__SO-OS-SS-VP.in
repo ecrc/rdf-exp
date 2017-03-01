@@ -1,0 +1,14 @@
+PREFIX http: <http://xmlns.com/foaf/>
+SELECT ?v0 ?v1 ?v3 ?v4 ?v5 ?v6 ?v7 ?v8 ?v9 
+WHERE {
+	?v0 http:__purl_org_goodrelations_includes ?v1 . 
+	http:__db_uwaterloo_ca__galuc_wsdbm_Retailer10 http:__purl_org_goodrelations_offers ?v0 . 
+	?v0 http:__purl_org_goodrelations_price ?v3 . 
+	?v0 http:__purl_org_goodrelations_serialNumber ?v4 . 
+	?v0 http:__purl_org_goodrelations_validFrom ?v5 . 
+	?v0 http:__purl_org_goodrelations_validThrough ?v6 . 
+	?v0 http:__schema_org_eligibleQuantity ?v7 . 
+	?v0 http:__schema_org_eligibleRegion ?v8 . 
+	?v0 http:__schema_org_priceValidUntil ?v9 . 
+}
+

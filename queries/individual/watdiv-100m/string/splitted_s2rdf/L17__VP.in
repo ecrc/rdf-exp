@@ -1,0 +1,8 @@
+PREFIX http: <http://xmlns.com/foaf/>
+SELECT ?v0 ?v1 ?v3 
+WHERE {
+	?v0 http:__schema_org_jobTitle ?v1 . 
+	http:__db_uwaterloo_ca__galuc_wsdbm_City134 http:__www_geonames_org_ontology_parentCountry ?v3 . 
+	?v0 http:__schema_org_nationality ?v3 . 
+}
+

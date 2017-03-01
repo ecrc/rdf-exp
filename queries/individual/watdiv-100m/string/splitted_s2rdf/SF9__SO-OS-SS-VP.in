@@ -1,0 +1,11 @@
+PREFIX http: <http://xmlns.com/foaf/>
+SELECT ?v0 ?v1 ?v2 ?v4 ?v5 ?v6 
+WHERE {
+	?v0 http:__schema_org_contentRating ?v1 . 
+	?v0 http:__schema_org_contentSize ?v2 . 
+	?v0 http:__db_uwaterloo_ca__galuc_wsdbm_hasGenre http:__db_uwaterloo_ca__galuc_wsdbm_SubGenre70 . 
+	?v4 http:__db_uwaterloo_ca__galuc_wsdbm_makesPurchase ?v5 . 
+	?v5 http:__db_uwaterloo_ca__galuc_wsdbm_purchaseDate ?v6 . 
+	?v5 http:__db_uwaterloo_ca__galuc_wsdbm_purchaseFor ?v0 . 
+}
+

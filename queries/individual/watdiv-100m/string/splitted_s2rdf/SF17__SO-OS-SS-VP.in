@@ -1,0 +1,11 @@
+PREFIX http: <http://xmlns.com/foaf/>
+SELECT ?v0 ?v1 ?v3 ?v4 ?v5 ?v6 
+WHERE {
+	?v0 http:__purl_org_goodrelations_includes ?v1 . 
+	http:__db_uwaterloo_ca__galuc_wsdbm_Retailer6 http:__purl_org_goodrelations_offers ?v0 . 
+	?v0 http:__purl_org_goodrelations_price ?v3 . 
+	?v0 http:__purl_org_goodrelations_validThrough ?v4 . 
+	?v1 http:__ogp_me_ns_title ?v5 . 
+	?v1 http:__www_w3_org_1999_02_22_rdf_syntax_ns_type ?v6 . 
+}
+

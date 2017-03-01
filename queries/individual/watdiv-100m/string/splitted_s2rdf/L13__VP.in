@@ -1,0 +1,7 @@
+PREFIX http: <http://xmlns.com/foaf/>
+SELECT ?v0 ?v2 
+WHERE {
+	?v0 http:__ogp_me_ns_tag http:__db_uwaterloo_ca__galuc_wsdbm_Topic140 . 
+	?v0 http:__schema_org_caption ?v2 . 
+}
+

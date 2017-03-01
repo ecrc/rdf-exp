@@ -1,0 +1,13 @@
+PREFIX http: <http://xmlns.com/foaf/>
+SELECT ?v0 ?v1 ?v2 ?v4 ?v5 ?v6 ?v7 
+WHERE {
+	?v0 http:__xmlns_com_foaf_homepage ?v1 . 
+	?v0 http:__ogp_me_ns_title ?v2 . 
+	?v0 http:__www_w3_org_1999_02_22_rdf_syntax_ns_type ?v3 . 
+	?v0 http:__schema_org_caption ?v4 . 
+	?v0 http:__schema_org_description ?v5 . 
+	?v1 http:__schema_org_url ?v6 . 
+	?v1 http:__db_uwaterloo_ca__galuc_wsdbm_hits ?v7 . 
+	?v0 http:__db_uwaterloo_ca__galuc_wsdbm_hasGenre http:__db_uwaterloo_ca__galuc_wsdbm_SubGenre35 . 
+}
+

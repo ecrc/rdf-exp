@@ -1,0 +1,13 @@
+PREFIX http: <http://xmlns.com/foaf/>
+SELECT ?v0 ?v4 ?v6 ?v7 
+WHERE {
+	?v0 http:__schema_org_caption ?v1 . 
+	?v0 http:__schema_org_text ?v2 . 
+	?v0 http:__schema_org_contentRating ?v3 . 
+	?v0 http:__purl_org_stuff_rev_hasReview ?v4 . 
+	?v4 http:__purl_org_stuff_rev_title ?v5 . 
+	?v4 http:__purl_org_stuff_rev_reviewer ?v6 . 
+	?v7 http:__schema_org_actor ?v6 . 
+	?v7 http:__schema_org_language ?v8 . 
+}
+

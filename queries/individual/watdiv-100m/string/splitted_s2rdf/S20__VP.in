@@ -1,0 +1,8 @@
+PREFIX http: <http://xmlns.com/foaf/>
+SELECT ?v0 ?v1 ?v2 
+WHERE {
+	?v0 http:__www_w3_org_1999_02_22_rdf_syntax_ns_type ?v1 . 
+	?v0 http:__schema_org_text ?v2 . 
+	http:__db_uwaterloo_ca__galuc_wsdbm_User506 http:__db_uwaterloo_ca__galuc_wsdbm_likes ?v0 . 
+}
+

@@ -1,0 +1,8 @@
+PREFIX http: <http://xmlns.com/foaf/>
+SELECT ?v0 ?v1 ?v2 
+WHERE {
+	?v0 http:__purl_org_ontology_mo_conductor ?v1 . 
+	?v0 http:__www_w3_org_1999_02_22_rdf_syntax_ns_type ?v2 . 
+	?v0 http:__db_uwaterloo_ca__galuc_wsdbm_hasGenre http:__db_uwaterloo_ca__galuc_wsdbm_SubGenre141 . 
+}
+

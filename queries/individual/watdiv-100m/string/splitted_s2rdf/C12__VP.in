@@ -1,0 +1,15 @@
+PREFIX http: <http://xmlns.com/foaf/>
+SELECT ?v0 ?v3 ?v4 ?v8 
+WHERE {
+	?v0 http:__schema_org_legalName ?v1 . 
+	?v0 http:__purl_org_goodrelations_offers ?v2 . 
+	?v2 http:__schema_org_eligibleRegion http:__db_uwaterloo_ca__galuc_wsdbm_Country5 . 
+	?v2 http:__purl_org_goodrelations_includes ?v3 . 
+	?v4 http:__schema_org_jobTitle ?v5 . 
+	?v4 http:__xmlns_com_foaf_homepage ?v6 . 
+	?v4 http:__db_uwaterloo_ca__galuc_wsdbm_makesPurchase ?v7 . 
+	?v7 http:__db_uwaterloo_ca__galuc_wsdbm_purchaseFor ?v3 . 
+	?v3 http:__purl_org_stuff_rev_hasReview ?v8 . 
+	?v8 http:__purl_org_stuff_rev_totalVotes ?v9 . 
+}
+
