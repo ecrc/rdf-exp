@@ -2,6 +2,9 @@
 
 
 ###Overview:
+The versatility of the Resource Description Framework (RDF) has allowed many web services to publish very large datasets that are impractical to process on a single computer. Therefore, many distributed SPARQL engines on shared-nothing computer clusters have emerged. Some utilize distributed frameworks such as MapReduce; others implement proprietary distributed processing; and some rely on expensive pre-processing for data partitioning. These systems exhibit a variety of trade-offs that are not well-understood, due to the lack of any comprehensive quantitative and qualitative evaluation. 
+In this paper, we present a survey of 21 state-of-the-art systems that cover the entire spectrum of distributed RDF data processing, categorize them by several characteristics, and explain their similarities and differences. Then, we select 11 representative systems and perform extensive experimental evaluation with respect to pre-processing cost, query performance, scalability and workload adaptability, using a variety of synthetic and real large datasets with up to 4.2B triples. Our results provide valuable insights for practitioners to understand the trade-offs for their usage scenarios.
+Finally, we publish online our evaluation framework, including all datasets and workloads, for researchers to compare their novel systems against the existing ones.      
 
 
 ###Dataset:
