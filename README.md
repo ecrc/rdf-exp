@@ -21,19 +21,19 @@ Finally, we publish online our evaluation framework, including all datasets and 
 All queries used in our experimental evaluation exists in #queries# folder including the individual benchmark queries or the query workloads.
 
 ####Individual Queries
-[LUBM-10240] (https://github.com/ecrc/rdf-exp/tree/master/queries/individual/lubm10240/string) 
+* [LUBM-10240] (https://github.com/ecrc/rdf-exp/tree/master/queries/individual/lubm10240/string) 
 
-[WatDiv] (https://github.com/ecrc/rdf-exp/tree/master/queries/individual/watdiv-100m/string) 
+* [WatDiv] (https://github.com/ecrc/rdf-exp/tree/master/queries/individual/watdiv-100m/string) 
 
-[YAGO2] (https://github.com/ecrc/rdf-exp/tree/master/queries/individual/yago2/string)
+* [YAGO2] (https://github.com/ecrc/rdf-exp/tree/master/queries/individual/yago2/string)
 
-[Bio2RDF] (https://github.com/ecrc/rdf-exp/tree/master/queries/individual/bio2rdf/string)
+* [Bio2RDF] (https://github.com/ecrc/rdf-exp/tree/master/queries/individual/bio2rdf/string)
 
 
 ####Workloads
-[LUBM-10240 10K] (https://github.com/ecrc/rdf-exp/tree/master/queries/workloads/lubm10240/string/workload_10k)
+* [LUBM-10240 10K] (https://github.com/ecrc/rdf-exp/tree/master/queries/workloads/lubm10240/string/workload_10k)
 
-[WatDiv-1B 20K] (https://github.com/ecrc/rdf-exp/tree/master/queries/workloads/watdiv-1b/string/workload_20k)
+* [WatDiv-1B 20K] (https://github.com/ecrc/rdf-exp/tree/master/queries/workloads/watdiv-1b/string/workload_20k)
 
 ###Tested Systems:
 
