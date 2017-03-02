@@ -7,7 +7,7 @@ In this paper, we present a survey of 21 state-of-the-art systems that cover the
 Finally, we publish online our evaluation framework, including all datasets and workloads, for researchers to compare their novel systems against the existing ones.      
 
 
-###Dataset:
+###Dataset Statistics:
 |*Dataset* | *Download* | *Triples (M)* | *#S (M)* | *#O (M)* | *#S∩O (M)* | *#P* | *Indegree (Avg/StDev)* | *Outdegree (Avg/StDev)*|
 |----------|------------|---------------|----------|----------|------------|------|------------------------|------------------------|
  WatDiv  | [Download] (http://cloud.kaust.edu.sa/#) | 109.23  | 5.21 | 17.93 | 4.72 | 86 | 22.49/960.44 | 42.20/89.25  | 
@@ -18,7 +18,17 @@ Finally, we publish online our evaluation framework, including all datasets and 
 
 
 ### Benchmark Queries 
+All queries used in our experimental evaluation exists in #queries# folder including the individual benchmark queries or the query workloads.
 
+####Individual Queries
+[LUBM-10240] (https://github.com/ecrc/rdf-exp/tree/master/queries/individual/lubm10240/string) 
+[WatDiv] (https://github.com/ecrc/rdf-exp/tree/master/queries/individual/watdiv-100m/string) 
+[YAGO2] (https://github.com/ecrc/rdf-exp/tree/master/queries/individual/yago2/string)
+[Bio2RDF] (https://github.com/ecrc/rdf-exp/tree/master/queries/individual/bio2rdf/string)
+
+####Workloads
+[LUBM-10240 10K] (https://github.com/ecrc/rdf-exp/tree/master/queries/workloads/lubm10240/string/workload_10k)
+[WatDiv-1B 20K] (https://github.com/ecrc/rdf-exp/tree/master/queries/workloads/watdiv-1b/string/workload_20k)
 
 ###Tested Systems:
 
