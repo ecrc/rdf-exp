@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cloud-db-researchers_rp/!svn/ver/3382/razen/NewFastEncoder/src
+END
+utils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/cloud-db-researchers_rp/!svn/ver/3160/razen/NewFastEncoder/src/utils.cpp
+END
+parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/cloud-db-researchers_rp/!svn/ver/3160/razen/NewFastEncoder/src/parser.h
+END
+partitioner_store.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/cloud-db-researchers_rp/!svn/ver/3382/razen/NewFastEncoder/src/partitioner_store.h
+END
+TurtleParser.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/cloud-db-researchers_rp/!svn/ver/3382/razen/NewFastEncoder/src/TurtleParser.hpp
+END
+profiler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/cloud-db-researchers_rp/!svn/ver/3382/razen/NewFastEncoder/src/profiler.cpp
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/cloud-db-researchers_rp/!svn/ver/3160/razen/NewFastEncoder/src/utils.h
+END
+Type.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/cloud-db-researchers_rp/!svn/ver/3382/razen/NewFastEncoder/src/Type.hpp
+END
+profiler.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/cloud-db-researchers_rp/!svn/ver/3382/razen/NewFastEncoder/src/profiler.h
+END
+parser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/cloud-db-researchers_rp/!svn/ver/3160/razen/NewFastEncoder/src/parser.cpp
+END
+partitioner_store.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/cloud-db-researchers_rp/!svn/ver/3382/razen/NewFastEncoder/src/partitioner_store.cpp
+END
+row.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/cloud-db-researchers_rp/!svn/ver/3160/razen/NewFastEncoder/src/row.h
+END
+TurtleParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/cloud-db-researchers_rp/!svn/ver/3382/razen/NewFastEncoder/src/TurtleParser.cpp
+END
+FastEncoder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/cloud-db-researchers_rp/!svn/ver/3160/razen/NewFastEncoder/src/FastEncoder.cpp
+END
