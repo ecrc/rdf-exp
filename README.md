@@ -14,7 +14,7 @@ Finally, we publish online our evaluation framework, including all datasets and 
  [YAGO2] (http://www.yago-knowledge.org) | [Download] (https://www.dropbox.com/s/6smvv4s3ix46tdq/yago.tar.gz?dl=0) | 284.30 | 10.12 | 52.34 | 1.77 | 98 | 5.43/2962.93 | 28.09/35.89 |
  [WatDiv-1B] (http://db.uwaterloo.ca/watdiv) | [Download] (https://www.dropbox.com/s/6iyltrnxttjbo46/watdiv.1000M.tar.gz?dl=0) | 1,092.16 | 52.12 | 179.09 | 46.95 | 86 | 23.69/2783.40 | 41.91/89.05 |
  [LUBM-10240] (http://swat.cse.lehigh.edu/projects/lubm/) | [Download] (https://www.dropbox.com/s/4ifouv5n5pa4vdk/10240_new_str.tar.gz?dl=0) | 1,366.71 | 222.21 | 165.29 | 51.00 | 18 | 16.54/26000.00 | 12.30/5.97 |
- [Bio2RDF] (http://download.bio2rdf.org/release/2/release.html) | [Download] (http://cloud.kaust.edu.sa/#) | 4,287.59 | 552.08 | 1,075.58 | 491.73 | 1,714 | 8.64/21110.00 | 16.83/195.44 |
+ [Bio2RDF] (http://download.bio2rdf.org/release/2/release.html) | [Download] (https://www.dropbox.com/s/qr4y4j00add7okx/all_bio2rdf_r2_str.nt.tar.gz?dl=0) | 4,287.59 | 552.08 | 1,075.58 | 491.73 | 1,714 | 8.64/21110.00 | 16.83/195.44 |
 
 
 ### Benchmark Queries 
