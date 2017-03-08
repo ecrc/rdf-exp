@@ -6,13 +6,40 @@ To prepare the input data for these systems, we use our utility project "NewFast
  * Change your current working directory to the NewFastEncoder directory. 
  ```
  cd Release
- ```
-* Generate the make files by running qmake.
-  ```
-make clean
+ make clean
  ```
 * Compile NewFastEncoder. 
   ```
 make all
  ```
+* Usage:  
+  ```
+NewFastEncoder <input_dir> <encoded_file_path>
+ ```
+input_dir is the path of the RDF data files while encoded_file_path is the location where the encoded data will be located. Notice that the dictionaries will be created at the directory of the encoded data. 
+
+
+
+
+###Query Encoder
+Query Load Encoder encodes a workload of queries (separated by #EOQ#) using the predicates and vertices dictionaries created in the previous step. 
+
+#### Compiling and Running
+ * Change your current working directory to the QueryLoadEncoder directory. 
+ ```
+ cd Release
+make clean
+ ```
+* Compile QueryLoadEncoder. 
+  ```
+make all
+ ```
+* Usage:  
+  ```
+QueryLoadEncoder <predicate_map_file> <vertices_map_file> <query_files_directory>
+ ```
+The encoded query file will be located in query_files_directory.
+
+
+
 
