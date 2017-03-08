@@ -1,9 +1,8 @@
 //============================================================================
-// Name        : VLDB.cpp
-// Author      : Ibrahim Abdelaziz & Razen AlHarbi
+// Name        : RDFDataEncoder
 // Version     :
-// Copyright   :
-// Description : RDF NTriples Encoder
+// Copyright   : KAUST-Infocloud
+// Description : Hello World in C++, Ansi-style
 //============================================================================
 
 #include "partitioner_store.h"

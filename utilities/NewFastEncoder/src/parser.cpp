@@ -1,3 +1,10 @@
+//============================================================================
+// Name        : RDFDataEncoder
+// Version     :
+// Copyright   : KAUST-Infocloud
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
 #include "parser.h"
 
 void trimIt(string & trimmed) {

@@ -1,3 +1,9 @@
+//============================================================================
+// Name        : RDFDataEncoder
+// Version     :
+// Copyright   : KAUST-Infocloud
+// Description : Hello World in C++, Ansi-style
+//============================================================================
 
 #ifndef PARTITIONER_STORE_H_
 #define PARTITIONER_STORE_H_

@@ -1,3 +1,10 @@
+//============================================================================
+// Name        : RDFDataEncoder
+// Version     :
+// Copyright   : KAUST-Infocloud
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
 #ifndef UTILS_H_
 #define UTILS_H_
 
