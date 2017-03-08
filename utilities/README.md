@@ -4,10 +4,13 @@ To prepare the input data for these systems, we use our utility project "NewFast
 
 #### Compiling and Running
  * Change your current working directory to the NewFastEncoder directory. 
+
  ```
  cd Release
+
  make clean
  ```
+
 * Compile NewFastEncoder. 
   ```
 make all
