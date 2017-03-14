@@ -53,5 +53,6 @@ H-RDF-3X | Contact Author: jiewen.huang@yale.edu |
 
 ###Utilities
 [RDF Data Encoder] (https://github.com/ecrc/rdf-exp/tree/master/utilities)
+
 [QueryLoad Encoder] (https://github.com/ecrc/rdf-exp/tree/master/utilities)
 
