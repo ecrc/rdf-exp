@@ -31,9 +31,9 @@ All queries used in our experimental evaluation exists in #queries# folder inclu
 
 
 ####Workloads
-* [LUBM-10240 10K] (https://github.com/ecrc/rdf-exp/tree/master/queries/workloads/lubm10240/string/workload_10k)
+* [LUBM-10240: 10K Queries] (https://github.com/ecrc/rdf-exp/tree/master/queries/workloads/lubm10240/string/workload_10k)
 
-* [WatDiv-1B 20K] (https://github.com/ecrc/rdf-exp/tree/master/queries/workloads/watdiv-1b/string/workload_20k)
+* [WatDiv-1B: 20K Queries] (https://github.com/ecrc/rdf-exp/tree/master/queries/workloads/watdiv-1b/string/workload_20k)
 
 ###Tested Systems:
 
@@ -50,4 +50,8 @@ CliqueSquare | https://team.inria.fr/oak/projects/cliquesquare/ |
 SHARD | https://svn.code.sf.net/p/shard-3store/code/ | 
 H-RDF-3X | Contact Author: jiewen.huang@yale.edu |
 
+
+###Utilities
+[RDF Data Encoder] (https://github.com/ecrc/rdf-exp/tree/master/utilities)
+[QueryLoad Encoder] (https://github.com/ecrc/rdf-exp/tree/master/utilities)
 
