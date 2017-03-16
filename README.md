@@ -5,6 +5,8 @@ The versatility of the Resource Description Framework (RDF) has allowed many web
 In this paper, we present a survey of 21 state-of-the-art systems that cover the entire spectrum of distributed RDF data processing, categorize them by several characteristics, and explain their similarities and differences. Then, we select 11 representative systems and perform extensive experimental evaluation with respect to pre-processing cost, query performance, scalability and workload adaptability, using a variety of synthetic and real large datasets with up to 4.2B triples. Our results provide valuable insights for practitioners to understand the trade-offs for their usage scenarios.
 Finally, we publish online our evaluation framework, including all datasets and workloads, for researchers to compare their novel systems against the existing ones.      
 
+![alt tag](https://github.com/ecrc/rdf-exp/blob/master/results/data_stats.png?raw=true)
+
 
 ###Dataset Statistics:
 |*Dataset* | *Download* | *Triples (M)* | *#S (M)* | *#O (M)* | *#S∩O (M)* | *#P* | *Indegree (Avg/StDev)* | *Outdegree (Avg/StDev)*|
