@@ -12,11 +12,11 @@ Finally, we publish online our evaluation framework, including all datasets and 
 ![alt tag](https://github.com/ecrc/rdf-exp/blob/master/results/data_stats.png?raw=true)
 
 #### Download Links
-* [WatDiv]: (http://db.uwaterloo.ca/watdiv)  | [Download] (https://www.dropbox.com/s/hzctwcrjdz812ax/wsdts_100m.tar.gz?dl=0)
-* [YAGO2] (http://www.yago-knowledge.org) | [Download] (https://www.dropbox.com/s/6smvv4s3ix46tdq/yago.tar.gz?dl=0)
-* [WatDiv-1B] (http://db.uwaterloo.ca/watdiv) | [Download] (https://www.dropbox.com/s/6iyltrnxttjbo46/watdiv.1000M.tar.gz?dl=0)
-* [LUBM-10240] (http://swat.cse.lehigh.edu/projects/lubm/) | [Download] (https://www.dropbox.com/s/4ifouv5n5pa4vdk/10240_new_str.tar.gz?dl=0)
-* [Bio2RDF] (http://download.bio2rdf.org/release/2/release.html) | [Download] (https://www.dropbox.com/s/qr4y4j00add7okx/all_bio2rdf_r2_str.nt.tar.gz?dl=0)
+* [WatDiv]:(http://db.uwaterloo.ca/watdiv)  [Download](https://www.dropbox.com/s/hzctwcrjdz812ax/wsdts_100m.tar.gz?dl=0)
+* [YAGO2] (http://www.yago-knowledge.org) [Download](https://www.dropbox.com/s/6smvv4s3ix46tdq/yago.tar.gz?dl=0)
+* [WatDiv-1B] (http://db.uwaterloo.ca/watdiv) [Download](https://www.dropbox.com/s/6iyltrnxttjbo46/watdiv.1000M.tar.gz?dl=0)
+* [LUBM-10240] (http://swat.cse.lehigh.edu/projects/lubm/) [Download](https://www.dropbox.com/s/4ifouv5n5pa4vdk/10240_new_str.tar.gz?dl=0)
+* [Bio2RDF] (http://download.bio2rdf.org/release/2/release.html) [Download](https://www.dropbox.com/s/qr4y4j00add7okx/all_bio2rdf_r2_str.nt.tar.gz?dl=0)
  
 
 
@@ -34,9 +34,9 @@ All queries used in our experimental evaluation exists in #queries# folder inclu
 
 
 #### Workloads
-* [LUBM-10240: 10K Queries] (https://github.com/ecrc/rdf-exp/tree/master/queries/workloads/lubm10240/string/workload_10k)
+* [LUBM-10240: 10K Queries](https://github.com/ecrc/rdf-exp/tree/master/queries/workloads/lubm10240/string/workload_10k)
 
-* [WatDiv-1B: 20K Queries] (https://github.com/ecrc/rdf-exp/tree/master/queries/workloads/watdiv-1b/string/workload_20k)
+* [WatDiv-1B: 20K Queries](https://github.com/ecrc/rdf-exp/tree/master/queries/workloads/watdiv-1b/string/workload_20k)
 
 ### Tested Systems:
 
