@@ -3,12 +3,11 @@ RDF data contain long strings in the form of URIs and literals. To avoid the sto
 To prepare the input data for these systems, we use our utility project "NewFastEncoder". It gets as input the directory which contains the RDF data and output the encoded data in ntriples format and two separate dictionaries for predicates and vertices.
 
 #### Compiling and Running
- * Change your current working directory to the NewFastEncoder directory. 
-       
+ * Change your current working directory to the NewFastEncoder directory.     
        ```
        cd Release ; make clean
        ```
-
+       
 * Compile NewFastEncoder. 
        ```
        make all
@@ -27,9 +26,8 @@ input_dir is the path of the RDF data files while encoded_file_path is the locat
 Query Load Encoder encodes a workload of queries (separated by #EOQ#) using the predicates and vertices dictionaries created in the previous step. 
 
 #### Compiling and Running
- * Change your current working directory to the QueryLoadEncoder directory. 
- 
-       ```
+ * Change your current working directory to the QueryLoadEncoder directory: 
+        ```
        cd Release; make clean
        ```
 * Compile QueryLoadEncoder. 
