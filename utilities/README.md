@@ -5,20 +5,20 @@ To prepare the input data for these systems, we use our utility project "NewFast
 #### Compiling and Running
  * Change your current working directory to the NewFastEncoder directory. 
 
- ```
- cd Release
+       ```
+       cd Release
 
- make clean
- ```
+       make clean
+       ```
 
 * Compile NewFastEncoder. 
-  ``````
-make all
- ``````
-* Usage:  
-  ``````
-NewFastEncoder <input_dir> <encoded_file_path>
- ``````
+       ```
+       make all
+       ```
+* Usage: 
+       ```
+       NewFastEncoder <input_dir> <encoded_file_path>
+       ```
 input_dir is the path of the RDF data files while encoded_file_path is the location where the encoded data will be located. Notice that the dictionaries will be created at the directory of the encoded data. 
 
 
