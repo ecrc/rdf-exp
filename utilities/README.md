@@ -4,10 +4,9 @@ To prepare the input data for these systems, we use our utility project "NewFast
 
 #### Compiling and Running
  * Change your current working directory to the NewFastEncoder directory. 
+       
        ```
-       cd Release
-
-       make clean
+       cd Release ; make clean
        ```
 
 * Compile NewFastEncoder. 
@@ -29,10 +28,9 @@ Query Load Encoder encodes a workload of queries (separated by #EOQ#) using the 
 
 #### Compiling and Running
  * Change your current working directory to the QueryLoadEncoder directory. 
+ 
        ```
-       cd Release
-
-       make clean
+       cd Release; make clean
        ```
 * Compile QueryLoadEncoder. 
        ```
