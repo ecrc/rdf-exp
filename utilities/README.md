@@ -22,8 +22,6 @@ NewFastEncoder <input_dir> <encoded_file_path>
 input_dir is the path of the RDF data files while encoded_file_path is the location where the encoded data will be located. Notice that the dictionaries will be created at the directory of the encoded data. 
 
 
-
-
 ### Query Encoder
 Query Load Encoder encodes a workload of queries (separated by #EOQ#) using the predicates and vertices dictionaries created in the previous step. 
 
