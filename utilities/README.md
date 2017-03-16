@@ -23,6 +23,7 @@ input_dir is the path of the RDF data files while encoded_file_path is the locat
 
 
 ### Query Encoder
+
 Query Load Encoder encodes a workload of queries (separated by #EOQ#) using the predicates and vertices dictionaries created in the previous step. 
 
 #### Compiling and Running
