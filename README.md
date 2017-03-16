@@ -15,8 +15,8 @@ Finally, we publish online our evaluation framework, including all datasets and 
 * [WatDiv]:(http://db.uwaterloo.ca/watdiv)  [Download](https://www.dropbox.com/s/hzctwcrjdz812ax/wsdts_100m.tar.gz?dl=0)
 * [YAGO2] (http://www.yago-knowledge.org) [Download](https://www.dropbox.com/s/6smvv4s3ix46tdq/yago.tar.gz?dl=0)
 * [WatDiv-1B] (http://db.uwaterloo.ca/watdiv) [Download](https://www.dropbox.com/s/6iyltrnxttjbo46/watdiv.1000M.tar.gz?dl=0)
-* [LUBM-10240] (http://swat.cse.lehigh.edu/projects/lubm/) [Download](https://www.dropbox.com/s/4ifouv5n5pa4vdk/10240_new_str.tar.gz?dl=0)
-* [Bio2RDF] (http://download.bio2rdf.org/release/2/release.html) [Download](https://www.dropbox.com/s/qr4y4j00add7okx/all_bio2rdf_r2_str.nt.tar.gz?dl=0)
+* [LUBM-10240](http://swat.cse.lehigh.edu/projects/lubm/) [Download](https://www.dropbox.com/s/4ifouv5n5pa4vdk/10240_new_str.tar.gz?dl=0)
+* [Bio2RDF](http://download.bio2rdf.org/release/2/release.html) [Download](https://www.dropbox.com/s/qr4y4j00add7okx/all_bio2rdf_r2_str.nt.tar.gz?dl=0)
  
 
 
@@ -55,7 +55,7 @@ H-RDF-3X | Contact Author: jiewen.huang@yale.edu |
 
 
 ### Utilities
-[RDF Data Encoder] (https://github.com/ecrc/rdf-exp/tree/master/utilities)
+[RDF Data Encoder](https://github.com/ecrc/rdf-exp/tree/master/utilities)
 
-[QueryLoad Encoder] (https://github.com/ecrc/rdf-exp/tree/master/utilities)
+[QueryLoad Encoder](https://github.com/ecrc/rdf-exp/tree/master/utilities)
 
