@@ -12,10 +12,12 @@ To prepare the input data for these systems, we use our utility project "NewFast
        ```
 
 * Compile NewFastEncoder. 
+
        ```
        make all
        ```
 * Usage: 
+
        ```
        NewFastEncoder <input_dir> <encoded_file_path>
        ```
@@ -29,20 +31,20 @@ Query Load Encoder encodes a workload of queries (separated by #EOQ#) using the 
 #### Compiling and Running
  * Change your current working directory to the QueryLoadEncoder directory. 
 
- ```
- cd Release
+       ```
+       cd Release
 
-make clean
- ```
-
+       make clean
+       ```
 * Compile QueryLoadEncoder. 
-  ```
-make all
- ```
+       ```
+       make all
+       ```
+       
 * Usage:  
-  ```
-QueryLoadEncoder <predicate_map_file> <vertices_map_file> <query_files_directory>
- ```
+       ```
+       QueryLoadEncoder <predicate_map_file> <vertices_map_file> <query_files_directory>
+       ```
 The encoded query file will be located in query_files_directory.
 
 
