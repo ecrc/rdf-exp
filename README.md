@@ -5,10 +5,18 @@ The versatility of the Resource Description Framework (RDF) has allowed many web
 In this paper, we present a survey of 21 state-of-the-art systems that cover the entire spectrum of distributed RDF data processing, categorize them by several characteristics, and explain their similarities and differences. Then, we select 11 representative systems and perform extensive experimental evaluation with respect to pre-processing cost, query performance, scalability and workload adaptability, using a variety of synthetic and real large datasets with up to 4.2B triples. Our results provide valuable insights for practitioners to understand the trade-offs for their usage scenarios.
 Finally, we publish online our evaluation framework, including all datasets and workloads, for researchers to compare their novel systems against the existing ones.      
 
+
+
+### Dataset Statistics:
+
 ![alt tag](https://github.com/ecrc/rdf-exp/blob/master/results/data_stats.png?raw=true)
 
-
-###Dataset Statistics:
+* [WatDiv] (http://db.uwaterloo.ca/watdiv)  | [Download] (https://www.dropbox.com/s/hzctwcrjdz812ax/wsdts_100m.tar.gz?dl=0)
+* [YAGO2] (http://www.yago-knowledge.org) | [Download] (https://www.dropbox.com/s/6smvv4s3ix46tdq/yago.tar.gz?dl=0)
+* [WatDiv-1B] (http://db.uwaterloo.ca/watdiv) | [Download] (https://www.dropbox.com/s/6iyltrnxttjbo46/watdiv.1000M.tar.gz?dl=0)
+* [LUBM-10240] (http://swat.cse.lehigh.edu/projects/lubm/) | [Download] (https://www.dropbox.com/s/4ifouv5n5pa4vdk/10240_new_str.tar.gz?dl=0)
+* [Bio2RDF] (http://download.bio2rdf.org/release/2/release.html) | [Download] (https://www.dropbox.com/s/qr4y4j00add7okx/all_bio2rdf_r2_str.nt.tar.gz?dl=0)
+ 
 |*Dataset* | *Download* | *Triples (M)* | *#S (M)* | *#O (M)* | *#S∩O (M)* | *#P* | *Indegree (Avg/StDev)* | *Outdegree (Avg/StDev)*|
 |----------|------------|---------------|----------|----------|------------|------|------------------------|------------------------|
  [WatDiv] (http://db.uwaterloo.ca/watdiv)  | [Download] (https://www.dropbox.com/s/hzctwcrjdz812ax/wsdts_100m.tar.gz?dl=0) | 109.23  | 5.21 | 17.93 | 4.72 | 86 | 22.49/960.44 | 42.20/89.25  | 
@@ -21,7 +29,7 @@ Finally, we publish online our evaluation framework, including all datasets and 
 ### Benchmark Queries 
 All queries used in our experimental evaluation exists in #queries# folder including the individual benchmark queries or the query workloads.
 
-####Individual Queries
+#### Individual Queries
 * [LUBM-10240] (https://github.com/ecrc/rdf-exp/tree/master/queries/individual/lubm10240/string) 
 
 * [WatDiv] (https://github.com/ecrc/rdf-exp/tree/master/queries/individual/watdiv-100m/string) 
@@ -31,12 +39,12 @@ All queries used in our experimental evaluation exists in #queries# folder inclu
 * [Bio2RDF] (https://github.com/ecrc/rdf-exp/tree/master/queries/individual/bio2rdf/string)
 
 
-####Workloads
+#### Workloads
 * [LUBM-10240: 10K Queries] (https://github.com/ecrc/rdf-exp/tree/master/queries/workloads/lubm10240/string/workload_10k)
 
 * [WatDiv-1B: 20K Queries] (https://github.com/ecrc/rdf-exp/tree/master/queries/workloads/watdiv-1b/string/workload_20k)
 
-###Tested Systems:
+### Tested Systems:
 
 |*System* | *Download* |
 |----------|------------------|
@@ -52,7 +60,7 @@ SHARD | https://svn.code.sf.net/p/shard-3store/code/ |
 H-RDF-3X | Contact Author: jiewen.huang@yale.edu |
 
 
-###Utilities
+### Utilities
 [RDF Data Encoder] (https://github.com/ecrc/rdf-exp/tree/master/utilities)
 
 [QueryLoad Encoder] (https://github.com/ecrc/rdf-exp/tree/master/utilities)
