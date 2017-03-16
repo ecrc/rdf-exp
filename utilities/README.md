@@ -12,13 +12,13 @@ To prepare the input data for these systems, we use our utility project "NewFast
  ```
 
 * Compile NewFastEncoder. 
-  ```
+  ``````
 make all
- ```
+ ``````
 * Usage:  
-  ```
+  ``````
 NewFastEncoder <input_dir> <encoded_file_path>
- ```
+ ``````
 input_dir is the path of the RDF data files while encoded_file_path is the location where the encoded data will be located. Notice that the dictionaries will be created at the directory of the encoded data. 
 
 
