@@ -50,6 +50,7 @@ All queries used in our experimental evaluation exists in #queries# folder inclu
 |----------|------------------|
 AdPart | https://github.com/razen-alharbi/AdPart |
 TriAD | Contact Author: mailto:gurajada@mpi-inf.mpg.de |
+gStoreD | https://github.com/bnu05pp/gStoreD |
 SHAPE | https://sites.google.com/site/gtshape/ |
 DREAM | https://github.com/CMU-Q/DREAM |
 H2RDF+ | https://github.com/zcourts/h2rdf/tree/master/H2RDF%2Bv0.2 |
