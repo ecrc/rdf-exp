@@ -5,3 +5,4 @@ SELECT ?name1 ?name2 WHERE{
     ?p1 <http://yago-knowledge.org/resource/wasBornIn> ?city .
     ?p2 <http://yago-knowledge.org/resource/wasBornIn> ?city .
 }
+#EOQ#
